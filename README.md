@@ -51,7 +51,7 @@ provisioner:
     defaults:
       interpreter_python: auto_silent
       callbacks_enabled: profile_tasks, timer
-      result_format: yaml
+      callback_result_format: yaml
       remote_user: ansible
       roles_path: "$MOLECULE_PROJECT_DIRECTORY/.."
     ssh_connection:
