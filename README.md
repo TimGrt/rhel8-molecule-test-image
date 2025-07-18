@@ -34,7 +34,7 @@ driver:
   name: podman
 platforms:
   - name: rhel8-molecule-test
-    image: ghcr.io/timgrt/rhel8-molecule-test-image:latest
+    image: ghcr.io/timgrt/rhel8-molecule-test-image:main
     groups:
       - molecule
     volumes:
